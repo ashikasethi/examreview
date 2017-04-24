@@ -4,10 +4,39 @@ h1 {
 }
 .subhed {
   text-transform: uppercase;
-  border-bottom: thick dotted #ff0000;
+  border-bottom: dotted #ff0000;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 h2 {
-  border-bottom: thick dotted #ff0000;
+  border-bottom: dotted #ff0000;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px;
+}
+body {
+  background-color: #545656;
+}
+.clearfix {
+  overflow: auto;
+}
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 600px) {
+.left-column {
+  background-color: #f7f7f7;
+  float: left;
+  width: 70%;
+  padding: 10px;
+}
+.right-column {
+  background-color: #f7f7f7;
+  float: right;
+  width: 30%;
+  padding: 10px;
+}
 }
