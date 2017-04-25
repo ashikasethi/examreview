@@ -40,3 +40,6 @@ body {
   padding: 10px;
 }
 }
+.border {
+  border: dotted 3px;
+}
